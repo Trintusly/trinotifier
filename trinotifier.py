@@ -8,7 +8,7 @@ import time
 
 # Set up variables
 start       = time.time()
-url         = 'https://discord.com/api/webhooks/819923763801751593/38DNvKFMggCAu8_9jN1QoqZazEBpQ507F7Xzp0C0lXZZQ7PaDgwj8gpXEqk9vNz47gBb'
+url         = 'webhook url goes here'
 category    = 'hat' # hat, face, gear, shirt, pants
 api         = 'https://vistora.xyz/api/store/fetch?type=' + category + '&sort=newest&limit=1&page=1'
 
