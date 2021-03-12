@@ -22,7 +22,7 @@ def check():
 
     json = requests.get(api).json()[0]
 
-    if currentItem != json['name']:c
+    if currentItem != json['name']:
         currentItem = json['name']
         webhook = DiscordWebhook(url = url, content = 'New item ' + json['name'])
         response = webhook.execute()
